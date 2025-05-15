@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "code": "FL-001",
+    "name": "Flota Principal",
+    "description": "Operaciones regulares y servicios locales",
+    "vehicleCount": 28,
+    "status": "active",
+    "performance": 92
+  },
+  {
+    "id": 2,
+    "code": "FL-002",
+    "name": "Flota Secundaria",
+    "description": "Operaciones especiales y rutas extendidas",
+    "vehicleCount": 10,
+    "status": "active",
+    "performance": 80
+  },
+  {
+    "id": 3,
+    "code": "FL-003",
+    "name": "Flota Externa",
+    "description": "Vehículos de terceros contratados temporalmente",
+    "vehicleCount": 4,
+    "status": "active",
+    "performance": 100
+  }
+]

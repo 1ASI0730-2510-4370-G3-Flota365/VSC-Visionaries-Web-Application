@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "plate": "ABC-123",
+    "model": "Toyota Hilux",
+    "year": 2023,
+    "mileage": 15240,
+    "status": "active",
+    "assignedDriver": "Carlos Méndez",
+    "lastService": "2025-03-15",
+    "nextService": "2025-06-15",
+    "fleet": "Principal"
+  },
+  {
+    "id": 2,
+    "plate": "XYZ-789",
+    "model": "Ford Ranger",
+    "year": 2022,
+    "mileage": 28750,
+    "status": "active",
+    "assignedDriver": "Ana Martínez",
+    "lastService": "2025-02-22",
+    "nextService": "2025-05-22",
+    "fleet": "Principal"
+  },
+  {
+    "id": 3,
+    "plate": "DEF-456",
+    "model": "Mitsubishi L200",
+    "year": 2023,
+    "mileage": 9830,
+    "status": "warning",
+    "assignedDriver": "Roberto Torres",
+    "lastService": "2025-04-10",
+    "nextService": "2025-07-10",
+    "fleet": "Principal"
+  },
+  {
+    "id": 4,
+    "plate": "GHI-789",
+    "model": "Nissan Frontier",
+    "year": 2022,
+    "mileage": 32450,
+    "status": "inactive",
+    "assignedDriver": null,
+    "lastService": "2025-01-05",
+    "nextService": "2025-04-05",
+    "fleet": "Principal"
+  },
+  {
+    "id": 5,
+    "plate": "JKL-012",
+    "model": "Toyota Hilux",
+    "year": 2021,
+    "mileage": 45670,
+    "status": "active",
+    "assignedDriver": "Pedro Ramírez",
+    "lastService": "2025-03-18",
+    "nextService": "2025-06-18",
+    "fleet": "Principal"
+  },
+  {
+    "id": 6,
+    "plate": "MNO-345",
+    "model": "Toyota Hilux",
+    "year": 2024,
+    "mileage": 5230,
+    "status": "active",
+    "assignedDriver": null,
+    "lastService": "2025-04-01",
+    "nextService": "2025-07-01",
+    "fleet": "Secundaria"
+  },
+  {
+    "id": 7,
+    "plate": "PQR-678",
+    "model": "Ford Ranger",
+    "year": 2023,
+    "mileage": 12340,
+    "status": "active",
+    "assignedDriver": "Laura González",
+    "lastService": "2025-03-05",
+    "nextService": "2025-06-05",
+    "fleet": "Secundaria"
+  },
+  {
+    "id": 8,
+    "plate": "STU-901",
+    "model": "Mitsubishi L200",
+    "year": 2023,
+    "mileage": 8970,
+    "status": "active",
+    "assignedDriver": null,
+    "lastService": "2025-04-15",
+    "nextService": "2025-07-15",
+    "fleet": "Secundaria"
+  },
+  {
+    "id": 9,
+    "plate": "VWX-234",
+    "model": "Nissan Frontier",
+    "year": 2022,
+    "mileage": 22780,
+    "status": "inactive",
+    "assignedDriver": null,
+    "lastService": "2025-02-12",
+    "nextService": "2025-05-12",
+    "fleet": "Externa"
+  }
+]
