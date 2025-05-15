@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "code": "DR-001",
+    "name": "Carlos Méndez",
+    "license": {
+      "number": "L12345678",
+      "expiry": "2025-06-15"
+    },
+    "status": "active",
+    "vehicle": "Toyota Hilux (ABC-123)",
+    "experience": 4,
+    "phone": "+51 987654321",
+    "email": "carlos.mendez@flota365.com"
+  },
+  {
+    "id": 2,
+    "code": "DR-002",
+    "name": "Ana Martínez",
+    "license": {
+      "number": "L87654321",
+      "expiry": "2025-12-03"
+    },
+    "status": "active",
+    "vehicle": "Ford Ranger (XYZ-789)",
+    "experience": 3,
+    "phone": "+51 987123456",
+    "email": "ana.martinez@flota365.com"
+  },
+  {
+    "id": 3,
+    "code": "DR-003",
+    "name": "Roberto Torres",
+    "license": {
+      "number": "L56781234",
+      "expiry": "2025-05-22"
+    },
+    "status": "warning",
+    "vehicle": "Mitsubishi L200 (DEF-456)",
+    "experience": 5,
+    "phone": "+51 987456123",
+    "email": "roberto.torres@flota365.com"
+  },
+  {
+    "id": 4,
+    "code": "DR-004",
+    "name": "Laura González",
+    "license": {
+      "number": "L43215678",
+      "expiry": "2026-01-05"
+    },
+    "status": "inactive",
+    "vehicle": null,
+    "experience": 2,
+    "phone": "+51 987321654",
+    "email": "laura.gonzalez@flota365.com"
+  },
+  {
+    "id": 5,
+    "code": "DR-005",
+    "name": "Pedro Ramírez",
+    "license": {
+      "number": "L98761234",
+      "expiry": "2025-08-18"
+    },
+    "status": "active",
+    "vehicle": "Toyota Hilux (JKL-012)",
+    "experience": 6,
+    "phone": "+51 987621345",
+    "email": "pedro.ramirez@flota365.com"
+  }
+]

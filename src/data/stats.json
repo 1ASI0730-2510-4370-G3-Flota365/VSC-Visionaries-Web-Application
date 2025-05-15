@@ -1,0 +1,177 @@
+{
+  "total_vehicles": 42,
+  "active_drivers": 38,
+  "maintenance_vehicles": 5,
+  "fleet_efficiency": 89,
+  "recent_changes": {
+    "vehicles": 2,
+    "drivers": -1,
+    "maintenance": 3,
+    "efficiency": 5
+  },
+  "drivers_stats": {
+    "active": 38,
+    "licenses_expiring": 4,
+    "average_distance": 753
+  },
+  "alerts": [
+    {
+      "type": "error",
+      "title": "Mantenimiento urgente",
+      "description": "Vehículo XYZ-789 requiere mantenimiento inmediato. Problema con el sistema de frenos.",
+      "time": "2 horas"
+    },
+    {
+      "type": "warning",
+      "title": "Licencia por vencer",
+      "description": "La licencia del conductor Carlos Méndez vence en 5 días. Programar renovación.",
+      "time": "5 horas"
+    },
+    {
+      "type": "info",
+      "title": "Recordatorio de servicio",
+      "description": "Programar servicio de 10,000 km para el vehículo DEF-456.",
+      "time": "1 día"
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "name": "Rendimiento_Flota_Abril_2025.pdf",
+      "type": "Rendimiento de flota",
+      "date": "2025-04-25 15:30",
+      "author": "Juan Supervisor"
+    },
+    {
+      "id": 2,
+      "name": "Consumo_Combustible_Q1_2025.xlsx",
+      "type": "Consumo de combustible",
+      "date": "2025-04-15 09:45",
+      "author": "Ana Martínez"
+    },
+    {
+      "id": 3,
+      "name": "Historial_Mantenimiento_2025.pdf",
+      "type": "Mantenimiento",
+      "date": "2025-04-10 11:20",
+      "author": "Pedro Ramírez"
+    },
+    {
+      "id": 4,
+      "name": "Eficiencia_Conductores_Marzo_2025.csv",
+      "type": "Desempeño de conductores",
+      "date": "2025-03-31 14:15",
+      "author": "Juan Supervisor"
+    }
+  ],
+  "analytics": {
+    "modules": [
+      {
+        "title": "Predicción de Fallos",
+        "icon": "fa-tools",
+        "description": "Analice patrones de comportamiento y prediga fallos potenciales antes de que ocurran."
+      },
+      {
+        "title": "Optimización de Rutas",
+        "icon": "fa-route",
+        "description": "Optimice las rutas basándose en análisis de patrones históricos y condiciones actuales."
+      },
+      {
+        "title": "Patrones de Conducción",
+        "icon": "fa-user-check",
+        "description": "Identifique patrones y comportamientos de sus conductores para mejorar la seguridad."
+      },
+      {
+        "title": "Eficiencia de Combustible",
+        "icon": "fa-gas-pump",
+        "description": "Analice y optimice el consumo de combustible basado en patrones de conducción y características de los vehículos."
+      }
+    ],
+    "recent_analyses": [
+      {
+        "title": "Predicción de mantenimiento - Abril 2025",
+        "date": "20/04/2025",
+        "parameters": [
+          "Modelo: Predicción de mantenimiento",
+          "Datos históricos: 12 meses",
+          "Confianza: 90%"
+        ],
+        "summary": "Se detectaron 5 vehículos con alta probabilidad de requerir mantenimiento en los próximos 30 días."
+      },
+      {
+        "title": "Optimización de rutas - Marzo 2025",
+        "date": "15/03/2025",
+        "parameters": [
+          "Modelo: Optimización de rutas",
+          "Datos históricos: 6 meses",
+          "Confianza: 95%"
+        ],
+        "summary": "La optimización sugiere ahorros potenciales del 15% en combustible y reducción de tiempos de trayecto en un 12%."
+      },
+      {
+        "title": "Análisis de patrones de conducción - Febrero 2025",
+        "date": "28/02/2025",
+        "parameters": [
+          "Modelo: Análisis de comportamiento",
+          "Datos históricos: 12 meses",
+          "Confianza: 90%"
+        ],
+        "summary": "Se identificaron 3 conductores con comportamientos de riesgo y 5 conductores con excelente desempeño de eficiencia."
+      }
+    ]
+  },
+  "monitoring": {
+    "vehicles": [
+      {
+        "id": 1,
+        "plate": "ABC-123",
+        "model": "Toyota Hilux",
+        "driver": "Carlos Méndez",
+        "status": "active",
+        "speed": 65,
+        "location": {"lat": -12.0464, "lng": -77.0428}
+      },
+      {
+        "id": 2,
+        "plate": "XYZ-789",
+        "model": "Ford Ranger",
+        "driver": "Ana Martínez",
+        "status": "warning",
+        "speed": 0,
+        "location": {"lat": -12.1219, "lng": -77.0310}
+      },
+      {
+        "id": 3,
+        "plate": "DEF-456",
+        "model": "Mitsubishi L200",
+        "driver": "Roberto Torres",
+        "status": "active",
+        "speed": 78,
+        "location": {"lat": -12.0931, "lng": -77.0465}
+      },
+      {
+        "id": 5,
+        "plate": "JKL-012",
+        "model": "Toyota Hilux",
+        "driver": "Pedro Ramírez",
+        "status": "error",
+        "speed": 98,
+        "location": {"lat": -12.1450, "lng": -76.9900}
+      }
+    ],
+    "alerts": [
+      {
+        "type": "error",
+        "title": "Exceso de velocidad",
+        "description": "Toyota Hilux (JKL-012) - Pedro Ramírez - 98 km/h en zona de 60 km/h",
+        "time": "2 minutos"
+      },
+      {
+        "type": "warning",
+        "title": "Tiempo de parada extendido",
+        "description": "Ford Ranger (XYZ-789) - Ana Martínez - Detenido por más de 30 minutos",
+        "time": "15 minutos"
+      }
+    ]
+  }
+}
